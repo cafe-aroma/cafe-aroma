@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-  background-image: url('images/fondo.jpg');
+  background-image: url('fondo.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,27 +60,27 @@ body {
 }
 
 .hero-section {
-  background-image: url('images/banner.jpg');
+  background-image: url('banner.jpg');
 }
 
 .hero-section-menu {
-  background-image: url('images/portada.jpg');
+  background-image: url('portada.jpg');
 }
 
 .hero-section-galeria {
-  background-image: url('images/galeria.jpg');
+  background-image: url('galeria.jpg');
 }
 
 .hero-section-reservas {
-  background-image: url('images/reservas.jpg');
+  background-image: url('reservas.jpg');
 }
 
 .hero-section-contacto {
-  background-image: url('images/contacto.jpg');
+  background-image: url('contacto.jpg');
 }
 
 .hero-section-nosotros {
-  background-image: url('images/nosotros.jpg');
+  background-image: url('nosotros.jpg');
 }
 
 .hero-text h1,
