@@ -1,0 +1,179 @@
+/* Estilos generales */
+body {
+  background-image: url('images/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Navbar */
+/* Estilos para el logotipo en el navbar */
+.navbar-brand {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el logotipo y el texto */
+}
+
+.navbar-brand img {
+  margin-right: 10px; /* Espacio entre el logotipo y el texto */
+}
+.navbar {
+  background-color: rgba(0, 71, 60, 0.925) !important; /* Fondo oscuro semitransparente */
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff !important;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: #fff !important;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  color: #f8b400 !important; /* Amarillo al pasar el mouse */
+}
+
+/* Hero Section */
+.hero-section,
+.hero-section-menu,
+.hero-section-galeria,
+.hero-section-reservas,
+.hero-section-contacto,
+.hero-section-nosotros {
+  position: relative;
+  height: 60vh;
+  background: no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-section {
+  background-image: url('images/banner.jpg');
+}
+
+.hero-section-menu {
+  background-image: url('images/portada.jpg');
+}
+
+.hero-section-galeria {
+  background-image: url('images/galeria.jpg');
+}
+
+.hero-section-reservas {
+  background-image: url('images/reservas.jpg');
+}
+
+.hero-section-contacto {
+  background-image: url('images/contacto.jpg');
+}
+
+.hero-section-nosotros {
+  background-image: url('images/nosotros.jpg');
+}
+
+.hero-text h1,
+.hero-text-menu h1,
+.hero-text-galeria h1,
+.hero-text-reservas h1,
+.hero-text-contacto h1,
+.hero-text-nosotros h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-text p,
+.hero-text-menu p,
+.hero-text-galeria p,
+.hero-text-reservas p,
+.hero-text-contacto p,
+.hero-text-nosotros p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+/* Secciones */
+.intro-section,
+.menu-section,
+.gallery-section,
+.reservas-section,
+.contacto-section,
+.intro-section-nosotros,
+.valores-section {
+  padding: 100px 0;
+}
+
+.intro-section h2,
+.menu-section h2,
+.gallery-section h2,
+.reservas-section h2,
+.contacto-section h2,
+.intro-section-nosotros h2,
+.valores-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro-section p,
+.menu-section p,
+.gallery-section p,
+.reservas-section p,
+.contacto-section p,
+.intro-section-nosotros p,
+.valores-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Galería */
+.gallery-section {
+  padding: 100px 0;
+}
+
+.gallery-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.img-thumbnail {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Combinación de técnicas */
+.texto-combinado {
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 1px;
+  border-radius: 1px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
